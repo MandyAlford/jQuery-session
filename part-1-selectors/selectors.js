@@ -9,3 +9,11 @@ clearBtn.addEventListener('click', function(){
     input.value = "";
   })
 })
+
+$( document ).ready(function() {
+
+$( 'label' ).addClass( 'green' );
+$( '.phone').addClass('yellow');
+$( 'label[for="email"]').addClass('blue');
+$( '' ).attr()
+});
